@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: devops-demo
-        image: <YOUR IMAGE PATH HERE>
+        image: us-central1-docker.pkg.dev/qwiklabs-gcp-01-344132a5c0d9/devops-demo/devops-image:v0.3
         ports:
         - containerPort: 8080
 
